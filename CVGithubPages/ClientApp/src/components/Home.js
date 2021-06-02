@@ -51,7 +51,7 @@ export class Home extends Component {
             <Working9to5
               mainText="Serviceinriktat jobb där punktlighet och lösningsorienterat tänkade är viktiga 
 verktyg för ett bra utfört arbete."
-              titel="Tågvvrd, SJ Götalandståg"
+              titel="Tågvärd, SJ Götalandståg"
               websitelink="https://www.sj.se/sv/hem.html#/"></Working9to5>
           </div>
 
@@ -66,7 +66,7 @@ verktyg för ett bra utfört arbete."
 
           <div className="col-md-4">
             <Working9to5
-              mainText="Arbetade tillsammans med andra teammedlemmar för att uppnå säljresultat 
+              mainText="Arbetade tillsammans med andra team-medlemmar för att uppnå säljresultat 
 ifrån Mariestad till Ängelholm!"
               titel="Fältsäljare, Telenor"
               websitelink="https://www.telenor.se/"></Working9to5>
