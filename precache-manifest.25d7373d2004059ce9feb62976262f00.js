@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c58b4085e36315741f39ff63ddae69e",
+    "revision": "faf99e476ad3d814bcd8ab923afeedf6",
     "url": "/CV-Github-pages/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CV-Github-pages/static/js/2.3c5c41e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3de2d190a3e5a5cba5f1",
-    "url": "/CV-Github-pages/static/js/main.a98a0abd.chunk.js"
+    "revision": "aba1e1e69a796a26d70b",
+    "url": "/CV-Github-pages/static/js/main.53513e7a.chunk.js"
   },
   {
     "revision": "96d1c91a4ff7c2b4400c",
