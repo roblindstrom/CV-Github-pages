@@ -1,4 +1,4 @@
-﻿import React, { Component } from "react";
+import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
 
@@ -30,8 +30,8 @@ export class Projects extends Component {
               <p className="card-text">{this.props.description}</p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                  <Link type="button"
-                    className="btn btn-sm btn-outline-secondary" to={{ pathname: this.props.githublink }} target="_blank">Github länk</Link>
+                  <a type="button"
+                    className="btn btn-sm btn-outline-secondary" href={ this.props.githublink } target="_blank">Github länk</a>
                     </div>
                 <small className="text-muted">{ this.props.languages}</small>
                   </div>

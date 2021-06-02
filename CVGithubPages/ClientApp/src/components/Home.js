@@ -5,6 +5,7 @@ import { Education } from './Education';
 import ContactMe from './ContactMe';
 import { Projects } from './Projects';
 
+
 export class Home extends Component {
   static displayName = Home.name;
 
@@ -13,13 +14,13 @@ export class Home extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container px-5">
-                <a className="navbar-brand" href="#!">Robin Lindström</a>
+                <a className="navbar-brand" href="#!">Robin LindstrÃ¶m</a>
             
             <div className="" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto ">
                 <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Home</a></li>
-                <li className="nav-item"><a className="nav-link" href="#working9to5">About Me</a></li>
-                <li className="nav-item"><a className="nav-link" href="#ContactMe">Contact</a></li>
+                <li className="nav-item"><a className="nav-link" href="#working9to5">LÃ¤s mer om mig</a></li>
+                <li className="nav-item"><a className="nav-link" href="#ContactMe">Kontakta mig</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,13 +33,13 @@ export class Home extends Component {
           <h1 >Tidigare projekt:</h1>
         </div>
 
-        <Projects title="RestaurantReview" githublink="https://github.com/roblindstrom/WebbApplikation" description="Grupp-projekt - Skapade en fullstack hemsida där man kan ge reviews på restauranger." languages="C#, Javascript, HTML, CSS"></Projects>
+        <Projects title="RestaurantReview" githublink="https://github.com/roblindstrom/WebbApplikation" description="Grupp-projekt - Skapade en fullstack hemsida dÃ¤r man kan ge reviews pÃ¥ restauranger." languages="C#, Javascript, HTML, CSS"></Projects>
 
-        <Projects title="BicycleRentalV2" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Mitt andra försök till en solid Backend API med focus på att kunna scala upp projektet med hjälp utav Clean Architecture. " languages="C#"></Projects>
+        <Projects title="BicycleRentalV2" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Mitt andra fÃ¶rsÃ¶k till en solid Backend API med focus pÃ¥ att kunna skala upp projektet med hjÃ¤lp utav Clean Architecture. " languages="C#"></Projects>
 
-        <Projects title="BicycleRental" githublink="https://github.com/roblindstrom/BicycleRent" description="Mitt första Backend API, uppdelat i flera lager för att hålla hög seperation of concerns, " languages="C#"></Projects>
+        <Projects title="BicycleRental" githublink="https://github.com/roblindstrom/BicycleRent" description="Mitt fÃ¶rsta API, uppdelat i flera lager fÃ¶r att hÃ¥lla hÃ¶g seperation of concerns, " languages="C#"></Projects>
         
-        <Projects title="FruitShop" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Grupp-projekt - Målet var att skapa en simpel shop i en Consol Application, " languages="C#"></Projects>
+        <Projects title="FruitShop" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Grupp-projekt - MÃ¥let var att skapa en simpel shop i en Consol Application, " languages="C#"></Projects>
 
         <div className="text-center">
           <h1 >Tidigare jobb:</h1>
@@ -48,26 +49,26 @@ export class Home extends Component {
         <div className="row">
           <div className="col-md-4">
             <Working9to5
-              mainText="Serviceinriktat jobb där punktlighet och lösningsorienterat tänkade är viktiga 
-verktyg för ett bra utfört arbete."
-              titel="Tågvärd, SJ Götalandståg"
+              mainText="Serviceinriktat jobb dÃ¤r punktlighet och lÃ¶sningsorienterat tÃ¤nkade Ã¤r viktiga 
+verktyg fÃ¶r ett bra utfÃ¶rt arbete."
+              titel="TÃ¥gvvrd, SJ GÃ¶talandstÃ¥g"
               websitelink="https://www.sj.se/sv/hem.html#/"></Working9to5>
           </div>
 
 
           <div className="col-md-4">
             <Working9to5
-              mainText="Arbetade bra i högt tempo och en snabbt föränderlig miljö!"
-              titel="Kundtjänst, Telia"
+              mainText="Arbetade bra i hÃ¶gt tempo och en snabbt fÃ¶rÃ¤nderlig miljÃ¶!"
+              titel="KundtjÃ¤nst, Telia"
               websitelink="https://www.telia.se/privat"></Working9to5>
           </div>
 
 
           <div className="col-md-4">
             <Working9to5
-              mainText="Arbetade tillsammans med andra teammedlemmar för att uppnå säljresultat 
-ifrån Mariestad till Ängelholm!"
-              titel="Fältsäljare, Telenor"
+              mainText="Arbetade tillsammans med andra teammedlemmar fÃ¶r att uppnÃ¥ sÃ¤ljresultat 
+ifrÃ¥n Mariestad till Ã„ngelholm!"
+              titel="FÃ¤ltsÃ¤ljare, Telenor"
               websitelink="https://www.telenor.se/"></Working9to5>
           </div>
         </div>
