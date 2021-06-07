@@ -13,8 +13,8 @@ export default class HeaderFrontPage extends Component {
               <h3 className="display-5 fw-bolder text-white mb-2">Systemutvecklare</h3>
               <p className="lead text-white-50 mb-4"> Kunnig Backend utvecklare med erfarenhet inom Fullstack utveckling</p>
               <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                  <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#working9to5">Läs mer om mig!</a>
-                  <a className="btn btn-outline-light btn-lg px-4" href="#ContactMe">Kontakta mig!</a>
+                  <a data-cy="headerWork"className="btn btn-primary btn-lg px-4 me-sm-3 mr-2" href="#working9to5">Läs mer om mig!</a>
+                  <a data-cy="headerContactMe"className="btn btn-outline-light btn-lg px-4 ml-2" href="#ContactMe">Kontakta mig!</a>
               </div>
             </div>
           </div>

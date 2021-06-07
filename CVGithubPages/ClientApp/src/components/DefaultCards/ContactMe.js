@@ -35,6 +35,7 @@ export default class ContactMe extends Component {
               <form className="test-mailing">
                 <div className="form-floating mb-3">
                   <input
+                    data-cy="contactMeName"
                     value={this.state.name}
                     onChange={this.handleChange}
                     id="name"
@@ -47,6 +48,7 @@ export default class ContactMe extends Component {
                 </div>
                 <div className="form-floating mb-3">
                   <input
+                    data-cy="contactMeEmail"
                     value={this.state.email}
                     onChange={this.handleChange}
                     id="email"
@@ -58,6 +60,7 @@ export default class ContactMe extends Component {
                 </div>
                 <div className="form-floating mb-3">
                   <input
+                    data-cy="contactMePhone"
                     value={this.state.phonenumber}
                     onChange={this.handleChange}
                     id="phonenumber"
@@ -69,6 +72,7 @@ export default class ContactMe extends Component {
                 </div>
                 <div className="form-floating mb-3">
                   <textarea
+                    data-cy="contactMeMessage"
                     value={this.state.message}
                     onChange={this.handleChange}
                     id="message"
@@ -80,7 +84,9 @@ export default class ContactMe extends Component {
                   <label for="inputMessage">Meddelande</label>
                 </div>
                 <div className="d-grid">
-                  <button className="btn btn-primary btn-lg" value="Submit" onClick={this.handleSubmit} type="submit">Skicka!</button>
+                  <button
+                    data-cy="contactMeSubmit"
+                    className="btn btn-primary btn-lg" value="Submit" onClick={this.handleSubmit} type="submit">Skicka!</button>
                 </div>
               </form>
             </div>

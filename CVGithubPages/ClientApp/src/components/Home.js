@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import  HeaderFrontPage  from './HeaderFrontPage';
-import { Working9to5 } from './Working9to5';
-import { Education } from './Education';
-import ContactMe from './ContactMe';
-import { Projects } from './Projects';
+import  HeaderFrontPage  from './DefaultCards/HeaderFrontPage';
+import { Working9to5 } from './Cards/Working9to5';
+import { Education } from './Cards/Education';
+import ContactMe from './DefaultCards/ContactMe';
+import CountRepos from './DefaultCards/CountRepos';
+import { Projects } from './Cards/Projects';
+import './Css/Home.Css';
 
 
 export class Home extends Component {
@@ -19,29 +21,32 @@ export class Home extends Component {
             <div className="" id="navbarSupportedContent">
               <ul className="navbar-nav ms-auto ">
                 <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Home</a></li>
-                <li className="nav-item"><a className="nav-link" href="#working9to5">Läs mer om mig</a></li>
-                <li className="nav-item"><a className="nav-link" href="#ContactMe">Kontakta mig</a></li>
+                <li data-cy="navbarWork"className="nav-item"><a className="nav-link" href="#working9to5">Läs mer om mig</a></li>
+                <li data-cy="navbarContactMe"className="nav-item"><a className="nav-link" href="#ContactMe">Kontakta mig</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-
+       
         
         <HeaderFrontPage></HeaderFrontPage>
-        <div className="text-center">
-          <h1 >Tidigare projekt:</h1>
+        <div className="Rubrik text-center ">
+          <h1  >Tidigare projekt:</h1>
+          <CountRepos></CountRepos>
         </div>
+
+
 
         <Projects title="RestaurantReview" githublink="https://github.com/roblindstrom/WebbApplikation" description="Grupp-projekt - Skapade en fullstack hemsida där man kan ge reviews på restauranger." languages="C#, Javascript, HTML, CSS"></Projects>
 
         <Projects title="BicycleRentalV2" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Mitt andra försök till en solid Backend API med focus på att kunna skala upp projektet med hjälp utav Clean Architecture. " languages="C#"></Projects>
 
-        <Projects title="BicycleRental" githublink="https://github.com/roblindstrom/BicycleRent" description="Mitt första API, uppdelat i flera lager för att hålla hög seperation of concerns, " languages="C#"></Projects>
+        <Projects title="BicycleRental" githublink="https://github.com/roblindstrom/BicycleRent" description="Mitt första API, uppdelat i flera lager för att hålla hög seperation of concerns. " languages="C#"></Projects>
         
-        <Projects title="FruitShop" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Grupp-projekt - Målet var att skapa en simpel shop i en Consol Application, " languages="C#"></Projects>
+        <Projects title="FruitShop" githublink="https://github.com/roblindstrom/BicycleRentalV2" description="Grupp-projekt - Målet var att skapa en simpel shop i en Consol Application. " languages="C#"></Projects>
 
-        <div className="text-center">
+        <div className="Rubrik text-center">
           <h1 >Tidigare jobb:</h1>
           </div>
              
